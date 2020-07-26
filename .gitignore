@@ -1,0 +1,22 @@
+.DS_Store
+node_modules/
+dist/
+debug*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+# 这个文件是动态生成, 不需要推送
+src/command/version.js
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+config/\.index\.js\.swo

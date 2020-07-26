@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script>
+    Object.fromEntries =
+      Object.fromEntries ||
+      ((info = []) =>
+        info.reduce((res, [key, val]) => {
+          res[key] = val;
+          return res;
+        }, {}));
+  </script>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500"
+    />
+    <meta charset="utf-8" />
+    <title>PRMP</title>
+    <link rel="shortcut icon" type="image/png" href="/web-logo.png" />
+  </head>
+
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but 哑资源管理平台 doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
+  <style>
+    .table-inside-button {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .el-table td,
+    .el-table th {
+      padding: 7px 0;
+    }
+
+    .el-dialog {
+      box-shadow: 2px 2px 2px 2px #8888;
+      border-radius: 3px;
+    }
+
+    .loading-font .el-loading-text {
+      color: #fff;
+    }
+
+    .loading-font .el-icon-refresh {
+      font-size: 40px;
+      color: #fff;
+      animation: rotating 2s linear infinite;
+    }
+
+    .el-dialog__header {
+      padding: 15px 20px 15px 20px;
+    }
+
+    .el-dialog__body {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .span-font {
+      color: #909090;
+    }
+
+    .mapModel .el-dialog__body {
+      padding: 0px 0px;
+    }
+
+    .unscrollbar::-webkit-scrollbar {
+      width: 0 !important;
+    }
+
+    .unscrollbar {
+      -ms-overflow-style: none;
+      overflow: -moz-scrollbars-none;
+    }
+
+    .unselectable {
+      -moz-user-select: -moz-none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+
+      /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .el-icon-edit {
+      cursor: pointer;
+    }
+
+    .el-icon-close {
+      cursor: pointer;
+    }
+
+    .el-icon-plus {
+      cursor: pointer;
+    }
+
+    .on-click {
+      cursor: pointer;
+    }
+
+    .el-select .el-tag {
+      display: inline-table;
+      white-space: initial;
+    }
+  </style>
+</html>
