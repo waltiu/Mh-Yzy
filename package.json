@@ -31,7 +31,7 @@
     "maptalks.animatemarker": "^0.4.0",
     "moment": "^2.20.1",
     "node-rsa": "^1.0.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "randomcolor": "^0.5.3",
     "raven-js": "^3.27.0",
     "sass-loader": "^6.0.7",
